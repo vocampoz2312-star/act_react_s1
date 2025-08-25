@@ -1,0 +1,69 @@
+{
+  "jhonlenis/act_react_s1": {
+    "repositoryUrl": "jhonlenis/act_react_s1",
+    "studentName": "Jhon Alexander Lenis Holguin",
+    "activities": [
+      {
+        "activityDescription": "Configurar el entorno de Next.js y limpiar el proyecto inicial, modificando page.js para mostrar el título de la actividad.",
+        "solutionFile": "src/app/page.js",
+        "score": 2,
+        "fileFound": true,
+        "feedback": "La actividad requería modificar page.js para mostrar el título de la actividad, lo cual no se realizó. El código presenta la estructura inicial del proyecto Next.js sin modificaciones sustanciales."
+      },
+      {
+        "activityDescription": "Crear un componente Usuario que reciba props básicas y mostrarlo en la página principal pasando la prop nombre.",
+        "solutionFile": "components/Usuario.jsx",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Modificar el componente Usuario para recibir múltiples props (nombre, edad, ciudad) y actualizar la página para pasarlas.",
+        "solutionFile": "components/Usuario.jsx",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Refactorizar el componente Usuario para recibir un objeto como prop usando destructuring y actualizar page.js.",
+        "solutionFile": "components/Usuario.jsx",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Añadir funcionalidad interactiva pasando una función como prop para manejar eventos onClick en un botón.",
+        "solutionFile": "src/app/page.js",
+        "score": 1,
+        "fileFound": true,
+        "feedback": "El código presentado no implementa la funcionalidad solicitada de manejar eventos onClick. Falta la función y la asignación al botón.  Se debe agregar un botón con un evento onClick que llame a una función definida."
+      },
+      {
+        "activityDescription": "Implementar renderizado de múltiples usuarios usando map() para iterar sobre un array de usuarios.",
+        "solutionFile": "src/app/page.js",
+        "score": 0,
+        "fileFound": true,
+        "feedback": "El código proporcionado es la plantilla inicial de Next.js y no implementa el renderizado de múltiples usuarios usando `map()`.  No se cumple con la descripción de la actividad."
+      },
+      {
+        "activityDescription": "Aplicar buenas prácticas añadiendo PropTypes para validación de props en el componente Usuario.",
+        "solutionFile": "components/Usuario.jsx",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      }
+    ],
+    "overallScore": 0.42857142857142855,
+    "totalActivities": 7,
+    "completedActivities": 2,
+    "summary": "Necesita mejorar. Completó 2/7 actividades (29%) con una calificación promedio de 0.4/5. Se recomienda revisar los conceptos fundamentales.",
+    "recommendations": [
+      "Completar los archivos faltantes: components/Usuario.jsx, components/Usuario.jsx, components/Usuario.jsx, components/Usuario.jsx",
+      "Revisar y mejorar las actividades con calificación baja",
+      "Enfocarse en mejorar la documentación y comentarios del código",
+      "Aplicar mejores prácticas de programación"
+    ],
+    "evaluatedAt": "2025-08-25T19:59:05.109Z",
+    "evaluatedBy": "Sistema de Evaluación"
+  }
+}
