@@ -132,5 +132,71 @@
     ],
     "evaluatedAt": "2025-08-25T20:48:13.426Z",
     "evaluatedBy": "Sistema de Evaluación"
+  },
+  "EmanuelGC8221/act_react_s1": {
+    "repositoryUrl": "EmanuelGC8221/act_react_s1",
+    "studentName": "Emanuel Giraldo Castañeda",
+    "activities": [
+      {
+        "activityDescription": "Configurar el entorno de Next.js y limpiar el proyecto inicial, modificando page.js para mostrar el título de la actividad.",
+        "solutionFile": "src/app/page.js",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La actividad inicial se completó correctamente y se extiende con la adición de un componente Usuario y manipulación de props. Podrías considerar extraer la lógica de los usuarios a un archivo separado para mayor organización."
+      },
+      {
+        "activityDescription": "Crear un componente Usuario que reciba props básicas y mostrarlo en la página principal pasando la prop nombre.",
+        "solutionFile": "components/Usuario.jsx",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Modificar el componente Usuario para recibir múltiples props (nombre, edad, ciudad) y actualizar la página para pasarlas.",
+        "solutionFile": "components/Usuario.jsx",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Refactorizar el componente Usuario para recibir un objeto como prop usando destructuring y actualizar page.js.",
+        "solutionFile": "components/Usuario.jsx",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Añadir funcionalidad interactiva pasando una función como prop para manejar eventos onClick en un botón.",
+        "solutionFile": "src/app/page.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "Excelente solución. Se implementó correctamente el paso de la función 'saludar' como prop y se utiliza para manejar el evento onClick en el componente Usuario (no mostrado, pero asumido). El código es limpio y bien estructurado."
+      },
+      {
+        "activityDescription": "Implementar renderizado de múltiples usuarios usando map() para iterar sobre un array de usuarios.",
+        "solutionFile": "src/app/page.js",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La solución implementa correctamente el renderizado de múltiples usuarios usando `map()`. Se recomienda usar un identificador único del usuario como `key` en lugar del índice para un mejor rendimiento al actualizar la lista."
+      },
+      {
+        "activityDescription": "Aplicar buenas prácticas añadiendo PropTypes para validación de props en el componente Usuario.",
+        "solutionFile": "components/Usuario.jsx",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      }
+    ],
+    "overallScore": 1.8571428571428572,
+    "totalActivities": 7,
+    "completedActivities": 3,
+    "summary": "Necesita mejorar. Completó 3/7 actividades (43%) con una calificación promedio de 1.9/5. Se recomienda revisar los conceptos fundamentales.",
+    "recommendations": [
+      "Completar los archivos faltantes: components/Usuario.jsx, components/Usuario.jsx, components/Usuario.jsx, components/Usuario.jsx",
+      "Enfocarse en mejorar la documentación y comentarios del código",
+      "Aplicar mejores prácticas de programación"
+    ],
+    "evaluatedAt": "2025-08-25T21:08:35.874Z",
+    "evaluatedBy": "Sistema de Evaluación"
   }
 }
