@@ -2,14 +2,10 @@
     {
         "activity": "Configurar el entorno de Next.js y limpiar el proyecto inicial, modificando page.js para mostrar el título de la actividad.",
         "solution": "src/app/page.js"
-    },
-    {
-        "activity": "Crear un componente Usuario que reciba props básicas y mostrarlo en la página principal pasando la prop nombre.",
-        "solution": "src/app/components/Usuario.jsx"
-    },
+    },    
     {
         "activity": "Modificar el componente Usuario para recibir múltiples props (nombre, edad, ciudad) y actualizar la página para pasarlas.",
-        "solution": "src/app/components/Usuario.jsx"
+        "solution": "src/app/components/usuario.jsx"
     },
     {
         "activity": "Refactorizar el componente Usuario para recibir un objeto como prop usando destructuring y actualizar page.js.",
