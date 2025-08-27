@@ -5,15 +5,15 @@
     },
     {
         "activity": "Crear un componente Usuario que reciba props básicas y mostrarlo en la página principal pasando la prop nombre.",
-        "solution": "components/Usuario.jsx"
+        "solution": "src/app/components/Usuario.jsx"
     },
     {
         "activity": "Modificar el componente Usuario para recibir múltiples props (nombre, edad, ciudad) y actualizar la página para pasarlas.",
-        "solution": "components/Usuario.jsx"
+        "solution": "src/app/components/Usuario.jsx"
     },
     {
         "activity": "Refactorizar el componente Usuario para recibir un objeto como prop usando destructuring y actualizar page.js.",
-        "solution": "components/Usuario.jsx"
+        "solution": "src/app/components/Usuario.jsx"
     },
     {
         "activity": "Añadir funcionalidad interactiva pasando una función como prop para manejar eventos onClick en un botón.",
@@ -25,6 +25,6 @@
     },
     {
         "activity": "Aplicar buenas prácticas añadiendo PropTypes para validación de props en el componente Usuario.",
-        "solution": "components/Usuario.jsx"
+        "solution": "src/app/components/Usuario.jsx"
     }
 ]
